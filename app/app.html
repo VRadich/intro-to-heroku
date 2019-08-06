@@ -1,31 +1,31 @@
 <ion-menu [content]="content">
 
-  <img src="http://agyrafa.com/email-mkt/images/banner_topo3.png" style="width: 100px;margin-left:84px"/>
+  <img src="http://agyrafa.com/email-mkt/images/logo2.png" style="width: 100px;margin-left:84px"/>
 
   <ion-content>
     <ion-list>
-      <ion-list-header>Home Search</ion-list-header>
+      <ion-list-header>Home</ion-list-header>
       <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
         <ion-icon item-left name="{{p.icon}}"></ion-icon>
         {{p.title}}
       </button>
-      <ion-list-header>Mortgage</ion-list-header>
+      <ion-list-header>Auto Atendimento</ion-list-header>
       <button menuClose ion-item >
         <ion-icon item-left name="checkbox"></ion-icon>
-        Get Pre-Approved
+        Minhas solicitações
       </button>
       <button menuClose ion-item >
         <ion-icon item-left name="cart"></ion-icon>
         Shop Rates
       </button>
-      <ion-list-header>Account</ion-list-header>
+      <ion-list-header>Minha Conta</ion-list-header>
       <button menuClose ion-item >
         <ion-icon item-left name="person"></ion-icon>
-        Profile
+        Perfil
       </button>
       <button menuClose ion-item >
         <ion-icon item-left name="settings"></ion-icon>
-        Settings
+        Configurações
       </button>
     </ion-list>
   </ion-content>
